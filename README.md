@@ -38,7 +38,7 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 Developed by: Karthikeyan R
 RegisterNumber:  22009322
 */
-
+```
 Half Subtractor :
 
 module ex03(A,B,Diff,Borrow);
@@ -58,28 +58,30 @@ output Diff,Borrow;
 assign Diff = A^B^C;
 assign Borrow = ~A & (B^C) | B & C;
 endmodule
+```
 ## Output:
 HALF SUBRACTOR
+# Logic daigram
+![output](./214550042-bd038f34-9c83-4ef7-904e-135c88bc8fab.png)
+# Truthtable
+![output](./214550271-4a5eee96-512f-45fe-9e58-139f9eb7c64c.png)
 
-## Truthtable
-![output](./T1.png)
+# RTL
+![output](./214550349-0efa3fb4-725a-4b67-ba31-17d1fa76cfde.png)
 
-
-
-##  RTL realization
-![output](./d3.png)
-
-## waveform
-![output](./d%203.1.png)
+# Timging daigram
+![output](./214550446-a282cfd0-9f70-40e1-8f31-7322e25e60e1.png)
 
 FULL SUBRACTOR
-### Truthtable
-![output](./T2.png)
-### RTL
-![output](./d2.png)
-### waveform
-![output](./d3.2.png)
+## Logic diagram
+![output](./214550570-ae3260b2-9ab1-4a98-8426-38932630f5f1.png)
 
 
+## Truthtable
+![output](./214550720-aaf0fa4f-ed30-4c01-b33e-518486fabc9a.png)
+# RTL
+![output](./214550826-6672c6eb-3900-4e5d-b635-0ea8de07bf0d.png)
+# Timing diagram 
+![output](./214550913-40bda8f8-3ec1-49e7-a2a6-7294fc48ecf1.png)
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
